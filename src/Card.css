@@ -1,0 +1,16 @@
+.dib {
+    background: linear-gradient(to top right, rgb(30, 174, 231), rgb(153, 203, 239));
+    padding: 3px;
+    margin: 10px;
+    width: 350px;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.5s;
+    box-shadow: 1px 1px 1px 1px rgba(86, 87, 87, 0.34);
+} 
+
+.dib:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
