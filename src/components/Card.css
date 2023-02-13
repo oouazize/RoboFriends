@@ -1,0 +1,20 @@
+.card {
+    background-color: #ff7700;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23b62b71' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23832085' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23bb373c' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%238c2f5f' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23cc5b73' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23962635' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23b62075' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ca0859' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23ab567d' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%238e066f' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23a50a9c' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23901697' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 3px;
+    margin: 10px;
+    width: 350px;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.5s;
+    box-shadow: 1px 1px 1px 1px rgba(86, 87, 87, 0.34);
+} 
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
